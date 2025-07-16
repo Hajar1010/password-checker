@@ -2,11 +2,8 @@
 # Author: hajar1010
 # Description:A simple Python script that checks the strength of a password based on length, digits, symbols, and letter case.
 import re
-
 # ask the user to enter their name
 pword = input("enter your password !!")
-
-
 # check the digits and symbols
 def checker():
     has_digit = False
@@ -17,7 +14,6 @@ def checker():
         if not i.isalnum():
             has_symbol = True
     return has_digit, has_symbol
-
 
 # check  the cases
 def cases():
@@ -30,7 +26,6 @@ def cases():
             has_upper = True
     return has_lower, has_upper
 
-
 # check the length
 def lenght():
     len_wanted = False
@@ -38,8 +33,7 @@ def lenght():
         return len_wanted
     else:
         return not len_wanted
-
-
+        
 # capturing the results
 has_digit, has_symbol = checker()
 has_lower, has_upper = cases()
