@@ -18,6 +18,7 @@ A simple Python script that evaluates the strength of a password based on:
    git clone https://github.com/Hajar1010/password-strength-checker.git
    cd password-strength-checker
 2. Run the script:
-  python main.py
+   ```bash
+   python main.py
 ## Technologies Used
   Python 3
