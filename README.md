@@ -5,6 +5,7 @@ A simple Python script that evaluates the strength of a password based on:
 - Use of digits
 - Use of symbols
 - Use of both lowercase and uppercase letters
+
 ---
 ##  Features
 - Checks for length, uppercase, lowercase, numbers, and special characters.
